@@ -744,22 +744,17 @@ h6 {
 }
 
 .review__text {
-    height: 144px;
+    height: 60%;
     line-height: 200%;
-    margin: 0px 0px 56px 0px;
+    margin: 0px 0px 10px 0px;
 }
 @media (max-width: 767px){
     .review__text{
-        max-height: 76px;
         font-size: 12px;
-        margin: 0px 0px 10px 0px;
+        margin: 0px 0px 5px 0px;
     }
 }
-@media (max-width: 321px){
-    .review__text{
-        max-height: 110px;
-    }
-}
+
 
 .author {
     display: flex;
